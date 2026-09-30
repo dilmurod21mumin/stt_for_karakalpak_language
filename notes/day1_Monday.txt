@@ -1,0 +1,18 @@
+Setup: repo ✅, cluster ✅, data layout . Audio
+basics: sampling rate, resampling,
+formats
+
+
+
+NLP (Natural Language Processing) is the broader field focused on enabling computers to understand, interpret, and generate human language. NLP encompasses many techniques and tasks such as sentiment analysis, named entity recognition, and machine translation.
+LLMs (Large Language Models) are a powerful subset of NLP models characterized by their massive size, extensive training data, and ability to perform a wide range of language tasks with minimal task-specific training. Models like the Llama, GPT, or Claude series are examples of LLMs that have revolutionized what’s possible in NLP.
+
+
+
+JiWER is a simple and fast python package to evaluate an automatic speech recognition system. It supports the following measures:
+
+    word error rate (WER)
+    match error rate (MER)
+    word information lost (WIL)
+    word information preserved (WIP)
+    character error rate (CER)

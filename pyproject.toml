@@ -1,0 +1,34 @@
+[project]
+name = "tts-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dilmurod", email = "dm4060142@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "datasets>=5.0.1",
+    "ipykernel>=7.3.0",
+    "jiwer>=4.0.0",
+    "librosa>=1.0.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
+    "pymupdf>=1.28.2",
+    "rapidfuzz>=3.14.6",
+    "silero-vad>=6.2.3",
+    "soundfile>=0.14.0",
+    "torch>=2.14.0",
+    "torchaudio>=2.11.0",
+    "tqdm>=4.70.1",
+    "transformers>=5.17.0",
+    "yt-dlp>=2026.8.19",
+]
+
+[project.scripts]
+tts-project = "tts_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
