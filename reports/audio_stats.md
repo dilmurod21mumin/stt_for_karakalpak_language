@@ -27,7 +27,7 @@
 | 75%       |     21.29 |
 | Max       |     40.25 |
 
-![Dataset structure](../scripts/durations_karakalpak-speech-corpus.png)
+![Dataset structure](../output_images/durations_karakalpak-speech-corpus.png)
 
 ---
 
@@ -60,7 +60,7 @@
 | 75%       |     5.75 |
 | Max       |    11.64 |
 
-![Dataset structure](../scripts/durations_karakalpak-audio-dataset.png)
+![Dataset structure](../output_images/durations_karakalpak-audio-dataset.png)
 
 ---
 
@@ -101,4 +101,4 @@
 | 75%       |    10.16 |
 | Max       |    19.90 |
 
-![Dataset structure](../scripts/durations_Karakalpak_Speech_Corpus_mendeley_v1.png)
+![Dataset structure](../output_images/durations_Karakalpak_Speech_Corpus_mendeley_v1.png)

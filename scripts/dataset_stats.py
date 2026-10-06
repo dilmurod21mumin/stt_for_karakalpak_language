@@ -28,6 +28,17 @@ plt.hist(d, bins=50)
 plt.xlabel("duration (sec)")
 plt.ylabel("count")
 plt.title(f"{p.name}  |  {d.sum()/3600:.2f} hours, {len(d)} samples")
-plt.savefig(f"durations_{p.stem if p.is_file() else p.name}.png", dpi=120)
 
-# to run: uv run python audio_stats.py path_to_folder_or_path_to_parquet_file
+#plt.savefig(f"durations_{p.stem if p.is_file() else p.name}.png", dpi=120)
+
+from pathlib import Path
+
+output_dir = Path(__file__).resolve().parent.parent / "output_images"
+output_dir.mkdir(parents=True, exist_ok=True)
+
+plt.savefig(
+    output_dir / f"durations_{p.stem if p.is_file() else p.name}.png",
+    dpi=120
+)
+
+# to run: uv run python dataset_stats.py path_to_folder_or_path_to_parquet_file

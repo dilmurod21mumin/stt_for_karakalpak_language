@@ -1,0 +1,23 @@
+# H.Hasanov -> H Hasanov
+# do transformation for raw text
+
+Audio cleaning:
+Parquet
+   ↓
+read audio bytes
+   ↓
+decode audio with soundfile
+   ↓
+convert stereo → mono
+   ↓
+resample → 16 kHz
+   ↓
+Silero VAD
+   ↓
+find first speech start + last speech end
+   ↓
+trim only outer silence
+   ↓
+encode as OGG/Opus
+   ↓
+write cleaned Parquet

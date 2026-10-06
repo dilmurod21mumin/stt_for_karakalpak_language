@@ -1,0 +1,64 @@
+data download ✅
+
+eda on datasets ✅
+
+audio analysis (learn audio features)  ✅
+
+text analysis (+ learn text features) ✅
+
+***
+data cleaning on all 3 data sets (+ save them as separate, better in parquet format)
+(later , if needed
+
+data cleaning: 
+audio cleaning [resample 48-> 16 hz ; start silence and end silence: VAD] ✅
+
+
+text cleaning: (observations [kg, cm, ...], nuqtalar [.,?!,- ,tire into space]
+, raqam+chi, raqam ) ✅
+
+(digit-month , digit-year , + ignore upper case) ✅
+
+
+audio+text manual: 6.5 -> yarım ; 6-8 ; 16.00-18.00 not all
+phone number ✅
+
+audio+text clipping later (before giving to model: audio clipping: drop less than 5s ; and drop or clip
+ max than 30s (2 parts ) + also for split text via text alignment
+ ) 
+ ( later
+
+
+
+****
+
+learn about models:
+
+Self-attention ; 
+encoder-decoder
+
+CTC: loss, alignment, blank token;
+greedy vs. beam decoding; KenLM
+shallow fusion
+
+follow to the week 2 plan
+
+****
+
+
+
+
+
+prepare dataset for training ( numeric format maybe)
+
+choose pretrained model(s)
+
+train / evaluate (train on 1 dataset and/or merged and/or on both)
+
+write report
+
+# note dataset 1 (107 h) is main , so do main work on it and the same on others
+
+# *** all note in 107h some errors in aduio ( auidoda transkriptni qayta(1-2 ta so'zni) aytgan joylari bor)
+
+# +later for dataset add: can 
